@@ -24,3 +24,20 @@ const reactElement = {
 const mainContainer = document.querySelector("#root");
 
 customRender(reactElement, mainContainer);
+
+// equivalent to this of react
+// {varb} evaluated expression
+
+// const varb = "arnab";
+// const reactElement = React.createElement(
+//   "a",
+//   {
+//     href: "https://www.google.com/",
+//     target: "_blank",
+//   },
+//   "Click me to visit google",
+//   varb;
+// );
+
+// ReactDom.createRoot(document.getElementById("root"));
+// render(reactElement);
